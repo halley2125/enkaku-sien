@@ -3,6 +3,7 @@ body { margin: 0; }
 
 /* global styles */
 video {
+  text-align: center;
   background-color: #111;
   width: 100%;
 }
@@ -27,7 +28,30 @@ video {
   width: 980px;
 }
 
+.p {
+  color: white;
+}
+
 /* p2p-media styles */
+.p2p-media .box1 {
+  position: absolute;
+	top: 10px;
+	left: 100px;
+	width: 1300px;
+	height: 900px;
+	background: #202124;
+}
+
+.p2p-media .box2 {
+  position: absolute;
+  text-align: center;
+	top: 10px;
+	right: 100px;
+	width: 400px;
+	height: 900px;
+	background: #202124;
+}
+
 .p2p-media {
   display: flex;
   align-items: center;
@@ -39,5 +63,7 @@ video {
 }
 
 .p2p-media .local-stream {
-  width: 30%;
+  right: 10px;
+  left: 10px;
+  width: 100%;
 }
