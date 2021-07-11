@@ -84,7 +84,6 @@ a {
   color: black;
 }
 canvas {
-  position: absolute;
   left: 100px;
   border: 1px solid #AAAAAA;
 }
