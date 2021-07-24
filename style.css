@@ -1,5 +1,5 @@
 /* normalize */
-body { margin: 0; 
+body { margin: 0;
   background-color: #131313;
 }
 
@@ -38,20 +38,18 @@ video {
 /* p2p-media styles */
 .p2p-media .box1 {
   position: absolute;
-
-	left: 100px;
-	width: 1300px;
-	height: 900px;
+    left: 0px;
+	width: 1130px;
+	height: 700px;
 	background: #202124;
 }
 
 .p2p-media .box2 {
   position: absolute;
   text-align: center;
-
-	right: 100px;
+    right: 0px;
 	width: 400px;
-	height: 900px;
+	height: 700px;
 	background: #202124;
 }
 
@@ -62,8 +60,9 @@ video {
 }
 
 .p2p-media .remote-stream {
-  width: 1300px;
-  height: 900px;
+  left: 0px;
+  width: 1130px;
+  height: 700px;
 }
 
 .p2p-media .local-stream {
@@ -86,22 +85,18 @@ a {
   color: black;
 }
 canvas {
-  left: 100px;
   border: 1px solid #AAAAAA;
 }
 #canvas {
   position: absolute;
-  left: 100px;
-
 }
 #canvasInterface {
   position: absolute;
-  left: 100px;
-
 }
+
 #noCanvas {
   position: absolute;
-  left: 100px;
+    
   top: 100px;
   width: 400px;
   height: 400px;
