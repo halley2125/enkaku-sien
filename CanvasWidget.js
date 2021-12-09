@@ -40,7 +40,7 @@
  *
  *
  **/
-var CanvasWidget = Base.extend({
+ var CanvasWidget = Base.extend({
 	canvas: null,
 	context: null,
 	position: null,
