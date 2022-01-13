@@ -20,7 +20,7 @@ var CanvasPainter = CanvasWidget.extend({
 	startPos: {x:-1,y:-1},
 	curPos: {x:-1,y:-1},
 
-	drawColor: "rgb(0,0,0)",  //need to change to drawColor...
+	drawColor: "rgb(0,255,0)",  //need to change to drawColor...
 
 	drawActions: null,
 	curDrawAction: 0,

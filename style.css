@@ -71,6 +71,14 @@ video {
   width: 100%;
 }
 
+#comcon {
+  position: absolute;
+  top: 450px;
+  left: 15px;
+  font-size: 12px;
+  width: 70px;
+}
+
 
 /*Canvas Painter*/
 
@@ -107,14 +115,14 @@ canvas {
   position: absolute;
   left: 90px;
   width: 300px;
-  top: 450px;
+  top: 400px;
 }
 #chooserWidgets canvas {
   margin-bottom: 10px;
 }
 #controls {
   position: absolute;
-  top: 450px;
+  top: 400px;
   left: 15px;
   font-size: 12px;
   width: 70px;
