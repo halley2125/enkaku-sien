@@ -26,7 +26,7 @@
     
       function doOnLoad() {
         if(CanvasHelper.canvasExists("canvas")) {
-          canvasPainter = new CanvasPainter("canvas", "canvasInterface", {x: 0, y: 00});
+          canvasPainter = new CanvasPainter("canvas", "canvasInterface", {x: 0, y: 0});
           //init save objects
           //saveDrawing = new CPDrawing(canvasPainter);
           canvasAnimator = new CPAnimator(canvasPainter);
@@ -112,14 +112,16 @@
         </div>
         <div class="box2">
           <div class="local-stream">
-            <video id="js-local-stream"></video>
-            <canvas id="c" width="400px" height="700px"></canvas>
-            <p class="p">Your ID: <span id="js-local-id"></span></p>
-            <input type="text" placeholder="Remote Peer ID" id="js-remote-id">
-            <button id="js-call-trigger">Call</button>
-            <button id="js-close-trigger">Close</button><br>
-            <button id="devices_button" onclick="getDeviceList()">Get Devices</button>
-            <select id=camera_list size="1" style="width: 180px;"></select>
+            <video id="js-local-stream" width="400px" height="400px"></video>
+            
+              <p class="p">Your ID: <span id="js-local-id"></span></p>
+              <input type="text" placeholder="Remote Peer ID" id="js-remote-id">
+              <button id="js-call-trigger">Call</button>
+              <button id="js-close-trigger">Close</button><br>
+
+              
+            
+            
 
             <div id="controls">
               <div class="ctr_btn" id="btn_0" style="background: #CCCCCC;" onclick="setCPDrawAction(0)" onMouseDown="setControlLook(0, '#CCCCCC')" onMouseOver="setControlLook(0, '#EEEEEE')" onMouseOut="setControlLook(0, '#FFFFFF')">brush</div>
